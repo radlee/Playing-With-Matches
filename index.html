@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <title>Index</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Body ------------------------------------>
+<body>
+
+  <div class="number" align="center" id="div1">
+  </div>
+
+  <div class="number" align="center" id="div2">
+  </div>
+
+  <div class="number" align="center" id="div3">
+  </div>
+
+  <div class="number" align="center" id="div4">
+  </div>
+  <!-- Script -------------------------------------------------->
+  <script type="text/javascript">
+
+  var getRandomNumber = function(min, max){
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  };
+
+  var updateHTML = function(id){
+    document.getElementById(id).innerHTML = getRandomNumber(1, 9);
+  };
+
+  updateHTML("div1");
+  updateHTML("div2");
+  updateHTML("div3");
+  updateHTML("div4");
+
+
+  </script>
+</body>
+</html>
