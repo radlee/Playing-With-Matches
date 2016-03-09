@@ -1,0 +1,132 @@
+body{
+  background-color: lightblue;
+}
+a:link, a:visited{
+  border: white solid 2px;
+  background-color: lightblue;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:sans-serif;
+}
+a:hover, a:active{
+
+  background-color: white;
+}
+.number{
+  height: 150px;
+  width: 150px;
+  border: white solid 2px;
+  color: white;
+  font-size: 100px
+
+}
+
+#div1{
+  position: relative;
+  float: left;
+  right: -20px;
+  /*background-color: yellow;*/
+  border-top-right-radius: 50px;
+}
+#div2{
+  position: relative;
+  float: left;
+  right: -20px;
+  /*background-color: lightpink;*/
+  border-bottom-left-radius: 50px;
+}
+
+#div3{
+  position: relative;
+  float: left;
+  right: -20px;
+  /*background-color: lightblue;*/
+  border-top-left-radius: 50px;
+}
+
+#div4{
+  position: relative;
+  float: left;
+  right: -20px;
+  /*background-color: purple;*/
+  border-bottom-left-radius: 50px;
+  text-align: center;
+}
+#div5{
+  position: relative;
+  float: left;
+  border: black solid 0px;
+  right: -20px;
+  /*background-color: lightgreen;*/
+  text-align: center;
+}
+#div6{
+  position: relative;
+  float: left;
+  right: -24px;
+  /*background-color: orange;*/
+  border-top-right-radius: 50px;
+  text-align: center;
+}
+
+#div7{
+  position: relative;
+  float: left;
+  right: -20px;
+  /*background-color:maroon;*/
+  border-bottom-right-radius: 50px;
+  text-align: center;
+}
+#div8{
+  position: relative;
+  right: -20px;
+  float: left;
+  /*background-color:gray;*/
+  border-top-right-radius: 50px;
+  text-align: center;
+}
+#div9{
+  position: relative;
+  right: -20px;
+  float: left;
+  /*background-color:blue;*/
+  border-bottom-left-radius: 50px;
+  text-align: center;
+}
+
+
+#parent{
+  position: relative;
+  margin: auto;
+  background-color: lightgreen;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#message{
+  position: absolute;
+  float:left;
+  bottom: 200px;
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  background-color: green;
+  font-family: sans-serif;
+}
+h3{
+  color: white;
+  font-family: sans-serif;
+}
+
+.highlight{
+  background-color: green;
+}
