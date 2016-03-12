@@ -131,11 +131,30 @@ h3{
   font-family: sans-serif;
 }
 
-.highlight{
-  background-color: green;
+.rowTex{
+  color: green;
+}
+.colText{
+  color: #660033;
+}
+.diaText{
+  color: #f00941;
+}
+
+.highlightRow{
+  background-color: #008000;
+}
+.highlightCol{
+  background-color: #b6a504;
 }
 .highlightParent{
   background-color: #DD4814;
+}
+.highlightParentDia{
+  background-color: #660033;
+}
+.highlightParentDia2{
+  background-color: #cccc00;
 }
 .highlightParent1{
   background-color: #772953;
@@ -150,5 +169,5 @@ h3{
   background-color: #f00941;
 }
 .highlightDia2{
-  background-color: #ff0071;
+  background-color: #0066ff;
 }
