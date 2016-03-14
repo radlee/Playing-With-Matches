@@ -1,0 +1,406 @@
+<!doctype>
+<html>
+	<head>
+		<title>ProjectCodeXDemo</title>
+		<link rel="icon" href="https://mir-s3-cdn-cf.behance.net/project_modules/disp/685c6017290251.562b822c38d5d.png" type="image/png">
+		<style>
+			#bg{
+			background-color: #FEFBC5;
+			}
+			.box h3{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				font-family: Verdana;
+				font-size: 30px;
+			}
+			#secondLink{
+
+			}
+			.box{
+				width: 70%;
+				height:200px;
+				background: #80ffff;
+				margin: 40px auto;
+			}
+			.effect2{
+				position:relative;
+			}
+			.effect2:before, .effect2:after{
+				z-index: -1;
+				position: absolute;
+				content: "";
+				bottom: 15px;
+				left: 10px;
+				width: 50%;
+				top: 80%;
+				max-width: 300px;
+				background: #777;
+				box-shadow: 0 15px 10px #777;
+				transform: rotate(-3deg);
+			}
+			.effect2:after{
+				transform: rotate(3deg);
+				right: 10px;
+				left: auto;
+			}
+			#DIV{
+				height: 300px;
+				width: 1200px;
+				webkit-box-shadow: 0 8px 6px 6px black;
+				background-color: #ff006c;
+			}
+			#DIV2{
+				position: relative;
+				height: 300px;
+				width: 700px;
+				float: right:
+				margin-top: 100px;
+				margin-left: 500px;
+				opacity: 0.3;
+				transform: rotate(45deg);
+				background-color: #0000ff;
+			}
+			#DIV3{
+				position: relative;
+				height: 300px;
+				width: 700px;
+				float: right:
+				margin-top: 100px;
+				margin-left: 100px;
+				opacity:0.8;
+				transform: rotate(-45deg);
+				background-color: #0DAE29;
+			}
+			h3{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				font-family: Verdana;
+				font-size: 30px;
+				}
+			p{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				font-family: Verdana;
+				font-size: 20px;
+				}
+			#description{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				padding: 80px;
+				font-family: Verdana;
+				font-size: 15px;
+				}
+			#p1{
+				text-align: center;
+				position: absolute;
+				bottom: 5px;
+				padding-right: 40px;
+				padding-left: 40px;
+				padding-top: 90px;
+				padding-bottom: 40px;
+				font-family: Verdana;
+				font-size: 18px;
+				}
+			#DIV4{
+				position: absolute;
+				height: 300px;
+				width: 300px;
+				float: right:
+				margin-top: 100px;
+				margin-left: 650px;
+				opacity: 0.8;
+				transform: rotate(-45deg);
+				background-color: #800040;
+			}
+			h4{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				font-family: Verdana;
+				font-size: 30px;
+				}
+			#main{
+				text-align:left;
+				position: relative;
+				top: 0px;
+				padding-left: 50px;
+				color:#FEFBC5;
+				font-family:vivaldi;
+				font-size: 50px;
+				}
+				#randomNumber{
+					text-align:center;
+					position: relative;
+					top: 0px;
+					padding-left: 50px;
+					color:#FEFBC5;
+					font-family:vivaldi;
+					font-size: 50px;
+					}
+			#leftBox{
+				text-align:center;
+				position: relative;
+				top: 0px;
+				padding-left: 20px;
+				color:#FEFBC5;
+				font-family:vivaldi;
+				font-size: 50px;
+				}
+			#mainText{
+				text-align: center;
+				top: -100px;
+				padding: 100px;
+				color: white;
+				}
+
+
+			#DIV5{
+				position: absolute;
+				height: 320px;
+				width: 320px;
+				float: right:
+				margin-top: 100px;
+				margin-left: 650px;
+				transform: rotate(-45deg);
+				background-color: #FEFBC5;
+				/**background-color: #800000;*/
+				border-bottom-left-radius: 200px;
+				border-bottom-right-radius: 200px;
+				border-top-left-radius: 200px;
+				border-top-right-radius: 200px;
+			}
+
+		#DIV6{
+				position: absolute;
+				height: 100px;
+				width: 100px;
+				margin-top: 300px;
+				margin-left: 950px;
+				background-color: #800000;
+				border-bottom-left-radius: 200px;
+				border-bottom-right-radius: 200px;
+				border-top-left-radius: 200px;
+				border-top-right-radius: 200px;
+			}
+		#DIV7{
+				position: absolute;
+				height: 150px;
+				width: 150px;
+				margin-top: 450px;
+				margin-left: 1000px;
+				background-color: #800000;
+				border-bottom-left-radius: 200px;
+				border-bottom-right-radius: 200px;
+				border-top-left-radius: 200px;
+				border-top-right-radius: 200px;
+			}
+		#DIV8{
+				position: relative;
+				height: 300px;
+				width: 1200px;
+				margin-top: 600px;
+				float: right;
+				background-color: #000;
+				border-top-left-radius: 100px;
+				border-bottom-right-radius: 50px;
+		}
+		#DIV9{
+				position:absolute;
+				top: 2150px;
+				left: 153px;
+				height: 500px;
+				width: 350px;
+				background-color: #800040;
+			}
+		a {
+				text-decoration: none;
+				}
+		img{
+				position:relative;
+				right: -500px;
+				bottom: -10px;
+			}
+		#paragraph{
+				text-align: center;
+				position: relative;
+				top: 80px;
+				font-family: Courier 10 Pitch;
+				font-size: 50px;
+			}
+			#greetParagraph{
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 50px;
+				padding-right: 100px;
+				padding-left: 100px;
+			}
+			#ctr{
+				font-family: cursive;
+			}
+
+			li{
+				font-family: verdana;
+				font-size: 18px;
+				color: green;
+			}
+			h4{
+				text-align: left;
+				font-family: verdana;
+				font-size: 18px;
+				color: green;
+				left: 50px;
+				top: -5px;
+			}
+			#head{
+				position:relative;
+				font-family:sans-serif;
+				top: -25px;
+				color: white;
+			}
+			#retro{
+				padding-top: -20px;
+				padding-right: 150px;
+				padding-left: 150px;
+				padding-bottom: 80px;
+				font-family: sans-serif;
+			}
+			#image{
+				position: relative;
+				top: -30px;
+				left: 0px;
+				float: left;
+			}
+			#cptg{
+				border: solid white 3px;
+				height: 50px;
+				width: 500px;
+				position: relative;
+				margin-left: 400px;
+				top: 50px;
+			}
+			.b1{
+				position: absolute;
+				top: 327px;
+			}
+
+
+			a:link, a:visited{
+				position: relative;
+			  border: white solid 2px;
+			  /*background-color: #f44336;*/
+			  background-color: lightblue;
+			  color: black;
+			  padding: 5px 25px;
+			  text-align: center;
+			  text-decoration: none;
+			  /*display: inline-block;*/
+			  font-family:sans-serif;
+				right: -5px;
+				bottom: -10px;
+			}
+			a:hover, a:active{
+
+			  background-color: white;
+			}
+			.text{
+				font-size: 30px;
+				font-family: sans-serif;
+				left: 10px;
+				top: 30px;
+			}
+
+
+
+		</style>
+        <!--__________________________END OF THE STYLE (CSS)___________________________________-->
+
+	</head>
+	<!--______________________________The begining of <Script>____________________________________-->
+	<script>
+
+	var displayMessage = function(text){
+	    var message = document.getElementById("message");
+	    message.innerHTML = text;
+	var body = document.querySelector("body");
+
+		function body.onkeydown(event){
+		var keyName = keyCodeName(event.keyCode);
+		if(keyName === "right"){
+			displayMessage(keyName);
+
+		}
+	};
+
+	var keyCodeName = function(event){
+		keyCode = event;
+		if(keyCode === 39){
+			return "right";
+
+		}
+	};
+	</script>
+	<!--__________________________________End of </Script> _________________________________________-->
+
+	<body id="bg">
+		<img id="image"src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ecda2f35004471.56e67ca67d444.png" alt="cxT1" height="200" width="200" />
+		<div class="box effect2">
+			<h3 id="retro">Week4 : <span style="color:green">A <span style="color:purple">different</span> Parent<span style="color:purple"></span></h3>
+		</div>
+		<div id="DIV">
+			<div id="cptg">
+				<h3 id="head">PWM : A <em>for</em> loop <span style="color:#ffe700">installment</span></h3>
+			</div>
+
+					<!--<button onclick="displayLinks()">Retro</button>-->
+					<h4 class="text" style="color: white">|Demo 4| | |||</h4>
+
+					<a href="/home/lee/projectCodeX/Playing-With-Matches/Playing/index_parent.html"target="_blank">index_parent.html</a>
+					<p></p>
+					<!-- <a href="/home/lee/projectCodeX/Playing-With-Matches/index.html" target="_blank">index.html</a> -->
+
+					<h4></h4>
+
+		</div>
+		<div id="DIV2">
+        	<h3>onkeydown - Example.</h3>
+		</div>
+        <div id="DIV3">
+        	<h3>Future Project Template</h3>
+        <p> All of my implementations and stuff I have learned since codeCademy</p>
+
+		</div>
+        <div id="DIV4">
+		</div>
+        <div id="DIV5">
+        	<h3>*New Animation Here</h3>
+		</div>
+         <div id="DIV6">
+		</div>
+        <div id="DIV7">
+					<h3 id="randomNumber"> 5 </h3>
+		</div>
+        <div id="DIV8">
+        	<h3 id="main"> Typography </h3>
+			<p id="mainText"> Text animation is the most appealing thing in the world. Applying this effect on HTML seems impossible yet some beautifully-minded people somewhere in this universe are able to implement this nice thing I also want to know. Now I have even realized that they can even do more. How do I do that? This link will take you to some of you team members, you will call these guys your best friends or your
+        	<span style="color:#FF0080"><a id="secondLink" href="C:\Users\LEE\Documents\HTML Coding\HTML Examples\3 divs inside aParent.html">
+        	to-hyperlinked-pages</a></span>. Kidding, they are your friends.</p>
+		</div>
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/63552035005955.56e68d5c9be4e.jpg" alt="pic" height="500px" width="350px">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/09eeab35004349.56e67b69addbb.jpg" alt="pic" height="500px" width="350px">
+    <div id="DIV9">
+        	<h3 id="leftBox">Portfolio $ |</h3>
+        	<p id="p1"> A very short paragraph that is supposed to have so much information.  </p>
+
+
+		</div>
+
+        	<p id="description">I would like to greatly thank you
+						 for taking time and reading through my unconventional page.
+					</p>
+
+	</body>
+</html>
